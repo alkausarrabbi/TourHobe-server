@@ -109,7 +109,7 @@ async function run() {
 run().catch(console.dir)
 
 app.get('/',(req,res)=>{
-    res.send("welcome to Tour Hobe Server");
+    res.send("welcome to Tour Hobe , live server link by Herku");
 })
 
 app.listen(port,()=>{
